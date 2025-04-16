@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     path: argo
   destination:
-    server: 'https://kubernetes.default.svc.cluster.local'
+    server: 'https://kubernetes.default.svc'
     namespace: web
   syncPolicy:
     automated:
