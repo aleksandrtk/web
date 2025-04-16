@@ -25,7 +25,7 @@ spec:
     stage('Sync with ArgoCD') {
       steps {
         container('kubectl') {
-          sh 'kubectl apply -f k8s/argocd-application.yaml'
+          sh 'kubectl apply -f argo/argocd-application.yaml'
         }
       }
     }
